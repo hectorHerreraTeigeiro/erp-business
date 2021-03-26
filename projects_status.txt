@@ -1,0 +1,57 @@
+Arge
+    Estatus del desarrollo de reporte para buró de crédito:   Prioridad 3
+    *** Bloqueo de contactos:   Implementar lista completa y status   con RGEX  Prioridad 1
+        modificar el README en jarsa-dev
+    Balance general quedaría con puros números enteros ya quedó
+Helga
+    *  OCA para Mexico
+    ** Cambiar texto en las PO
+Amazon aurora:   
+    Wtg Vauxoo junta c Ernesto
+    .
+Paco
+    * Carga multiple de CRM y Cotizaciones
+    *** Continuar el proceso de Cotizacion con DUMMY y luego cargar productos
+    Quitar el boton de confirmar para las cotizaciones, eso da pie a errores
+Susana
+    ** Saldos en CXP es negativo en MT Mexico
+    Traspasos entre bancos no da cero
+    Calculo de Revaluaciones: Mexico, FPE00002 must NOT show
+Gio
+    Evitar el uso de "*" en Marcas para los Kits _?   Evaluar bien!  y los gastos distribuidos?
+    .
+Alan
+    demo y costo de envio de meet x odoo (enviar tambien correo)
+    cotiz de credit bureau y listas negras 69 y 69b SAT
+    default_code   https://git.vauxoo.com/jarsa/iho/-/merge_requests/187/diffs
+
+    boton de !!!
+    * probar proceso hasta la PO
+    * https://apps.odoo.com/apps/modules/12.0/mail_activity_reminder/ error, es este?
+    * como cambiar productos y existencia entre empresas?
+    * stock-logistics-warehouse/stock_mts_mto_rule  Manda error de update al agregar repo
+    * como se configura el q el producto llegue a una Req.Cotiz? y q haga una PO x cada SO
+    * Como se juntan varias PO o SO en una sola
+    * stock-logistics estan viejos
+    * poner control visualizacion del costo por medio de oca y no por group_show_product_standard_cost
+Wtd
+    study Quay.io
+    https://docs.python.org/3/library/re.html
+    https://pythex.org/
+    * implementar un Odoo 14.0 desde cero y luego ponerle los datos de mt
+    study defining _context   as  sale?order?review?wizard.py
+    seguir probando el cotiz hecha para iho
+    odoo
+        keep watching videos
+    mt
+        *** enviar los dos proyectos a Jarsa: 69 y bureau.
+    iho
+        https://www.youtube.com/watch?v=Rju12wouDHQ
+        https://www.youtube.com/watch?v=ciGoeS3ptsw   **************** 
+        revisar video ultima reunion con Alan, definir tareas!
+            *** mostrar el ajuste contable a Eldar
+            * now updated, retest:  jarsa/stock-logistics-warehouse, product-attribute
+            * mail-activity-reminder revisar el readme del modulo la config/install
+            *** test so-po process
+        *** test next steps ... load 2020
+        

@@ -1,0 +1,20 @@
+Adelantos
+1- Crear dos cuentas contables
+	Cuentas por pagar	206.01.02	Anticipo de clientes (por Cobrar)		Conciliable
+
+2- Se crea un producto "Aplicación de adelanto"
+	Se le asigna la cuenta 206.01.02
+	Codigo SAT 84111506
+
+3- Contabilidad / Config  poner el producto  y el proceso a usar
+
+	Se crea un Diario  "Adelantos"  ***********
+
+Proceso
+
+Para hacer manualmente la factura de Adelanto:
+Se crea timbra y paga una factura con una sola línea, con el producto "Aplicacion de adelanto", Cantdad=1 y el monto de la cantidad recibida
+
+Para hacer la factura en la conciliación, al quedar saldo o tener el deposito, si se deja la opcion de "Dejar Abierto", se crea la factura
+
+Para aplicar

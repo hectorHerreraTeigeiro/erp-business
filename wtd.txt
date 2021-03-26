@@ -1,0 +1,53 @@
+2huevo, queso aguacate pollo jito mayo crema
+manteq semilla fresa
+iho   df00004
+-----------
+telmex   Mar 22;   21809014
+   Mar 23 wup dice q es folio 02813373
+----------
+https://santaelenacoffeeroasters.com/
+------------
+<field name="operator" style="background:Blue;" attrs="{'readonly':[('state', '=', 'done')]}"/>
+if you need to give color for your letters, then use style="color:Red;" 
+<field name="custom_field" class="opt_required" decoration-warning="company_name == 'Elektrolux'"/>
+-------------
+study
+oca/ account-invoice-reporting
+-------------
+arge
+cuenta en conciliaciones no aparece
+-------------
+jorge
+asignar proyectos: segto a cotiz de paquete y enviar a jorge
+cubos:  disponibilidad de SQL desde Odoo (cecilia), wtg reply
+seriales garantía:  Analisis de requerimientos
+	Wtg Jorge reply on analysis
+mt upgrade:   
+	Actualización custom programs (Jarsa)
+	estudiar cambios de 12.0 a 14.0 en programación
+	load mt database at local, test;   Ok
+	test mt140 how is admin doing? ********************
+		send	https://youtu.be/c9CDTF8DDcA    Bank reconciliation
+			https://youtu.be/YyMNUFaomWI	Odoo accounting 101
+	acualizar mt con ultima copia d e produccion:   usarla para mt120, mt120tmp
+		programación seriales:
+			add account_inoice_line_ids a modelo stock_production_lot
+			use_time, life_time, removal_time, alert_time
+		mantener actualizada la db de produccion en 14.0 cada fin de semana, 
+--------------------
+Susana:    Limpiar los decimales de la conta
+--------------------
+iho	error al crear una PO directamente xq no tiene SO de origen
+	seguir con el SIF  
+	int le falta Source Document en el header;
+	int se duplica
+	representacion grafica por cada PO del status por barras, las barras x colores segun avance por fechas
+	No aplica pedido x estar debajo de costo  (monitoreando Cuentas analiticas x Cron)
+	Hay CxP y Cxc en moneda del proveedor ???   cual es el costo?
+	Stock/Out/Transf/Input/Stock entre bodegas
+	La ID de Google debería ser única:  odoo/addons/google_calendar/models/calendar.py   Google ID should be unique!
+--------------------
+Bec
+	Gladys Carrillo	anzerian.design@gmail.com	6561454040
+		 GLADYS MICHELLE CARRILLO GUERRERO
+	Patricia Rosas	pat.uni95@gmail.com	6561489531	nda-junta-listo  ir 

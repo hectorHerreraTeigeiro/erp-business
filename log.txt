@@ -1,0 +1,370 @@
+2020-10-30 04:15:00,514 13 INFO ? odoo: Odoo version 12.0
+2020-10-30 04:15:00,515 13 INFO ? odoo: Using configuration file at /home/odoo/.openerp_serverrc
+2020-10-30 04:15:00,515 13 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo/addons/12.0', '/home/odoo/instance/extra_addons/enterprise', '/home/odoo/instance/odoo/addons', '/home/odoo/instance/extra_addons/iho', '/home/odoo/instance/extra_addons/mexico', '/home/odoo/instance/extra_addons/account-fix-tools', '/home/odoo/instance/extra_addons/product-attribute', '/home/odoo/instance/extra_addons/purchase-workflow', '/home/odoo/instance/extra_addons/server-backend', '/home/odoo/instance/extra_addons/odoo-utilities', '/home/odoo/instance/extra_addons/social', '/home/odoo/instance/extra_addons/server-tools', '/home/odoo/instance/extra_addons/reporting-engine', '/home/odoo/instance/extra_addons/web', '/home/odoo/instance/extra_addons/vendor-bills', '/home/odoo/instance/extra_addons/queue', '/home/odoo/instance/extra_addons/server-backend-mig-dbsource-sqlite', '/home/odoo/instance/extra_addons/server-backend-mig-dbsource-mysql', '/home/odoo/instance/extra_addons/storage', '/home/odoo/instance/extra_addons/connector', '/home/odoo/instance/extra_addons/pos', '/home/odoo/instance/extra_addons/server-env', '/home/odoo/instance/extra_addons/delivery-carrier', '/home/odoo/instance/extra_addons/isolated_addons', '/home/odoo/instance/odoo/odoo/addons']
+2020-10-30 04:15:00,515 13 INFO ? odoo: database: mtnmx120dev@172.17.0.36:5432
+2020-10-30 04:15:00,925 13 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2020-10-30 04:15:01,337 13 INFO ? odoo.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2020-10-30 04:15:01,365 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading 1 modules...
+2020-10-30 04:15:01,521 13 INFO i55_002_mtnmx120 odoo.modules.registry: module base: creating or updating database tables
+2020-10-30 04:15:03,685 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res.lang.csv
+2020-10-30 04:15:04,552 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res_lang_data.xml
+2020-10-30 04:15:04,560 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res_partner_data.xml
+2020-10-30 04:15:04,634 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res_company_data.xml
+2020-10-30 04:15:04,644 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res_users_data.xml
+2020-10-30 04:15:04,659 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/report_paperformat_data.xml
+2020-10-30 04:15:04,673 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res_currency_data.xml
+2020-10-30 04:15:05,075 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res_country_data.xml
+2020-10-30 04:15:05,652 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/ir_demo_data.xml
+2020-10-30 04:15:05,710 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/security/base_groups.xml
+2020-10-30 04:15:12,966 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/security/base_security.xml
+2020-10-30 04:15:13,448 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/base_menus.xml
+2020-10-30 04:15:13,627 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_config_views.xml
+2020-10-30 04:15:13,701 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/res.country.state.csv
+2020-10-30 04:15:15,061 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_actions_views.xml
+2020-10-30 04:15:15,521 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455606, 3455622]
+2020-10-30 04:15:15,833 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_config_parameter_views.xml
+2020-10-30 04:15:15,953 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_cron_views.xml
+2020-10-30 04:15:16,191 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_filters_views.xml
+2020-10-30 04:15:16,332 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_mail_server_views.xml
+2020-10-30 04:15:16,462 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_model_views.xml
+2020-10-30 04:15:16,564 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3459161, 3459189]
+2020-10-30 04:15:16,684 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455976]
+2020-10-30 04:15:16,767 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3459160, 3459188]
+2020-10-30 04:15:16,880 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455975]
+2020-10-30 04:15:17,306 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3456995]
+2020-10-30 04:15:17,348 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_attachment_views.xml
+2020-10-30 04:15:17,487 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3458900]
+2020-10-30 04:15:17,540 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_rule_views.xml
+2020-10-30 04:15:17,594 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455627, 3456970]
+2020-10-30 04:15:17,697 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3456996]
+2020-10-30 04:15:17,747 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_sequence_views.xml
+2020-10-30 04:15:17,874 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_translation_views.xml
+2020-10-30 04:15:18,034 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_ui_menu_views.xml
+2020-10-30 04:15:18,154 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_ui_view_views.xml
+2020-10-30 04:15:18,279 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3457384, 3458271]
+2020-10-30 04:15:18,432 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_default_views.xml
+2020-10-30 04:15:18,557 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/ir_cron_data.xml
+2020-10-30 04:15:18,584 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/report/ir_model_report.xml
+2020-10-30 04:15:18,601 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/report/ir_model_templates.xml
+2020-10-30 04:15:18,668 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455604, 3455647, 3455654, 3455655, 3455656, 3455659]
+2020-10-30 04:15:18,684 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_logging_views.xml
+2020-10-30 04:15:18,799 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml
+2020-10-30 04:15:18,899 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3456875]
+2020-10-30 04:15:18,919 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_module_views.xml
+2020-10-30 04:15:19,028 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3456864]
+2020-10-30 04:15:19,177 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455574]
+2020-10-30 04:15:19,262 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/ir_module_category_data.xml
+2020-10-30 04:15:38,468 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/ir_module_module.xml
+2020-10-30 04:15:38,523 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/report/ir_module_reports.xml
+2020-10-30 04:15:38,538 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/report/ir_module_report_templates.xml
+2020-10-30 04:15:38,602 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455640, 3455650]
+2020-10-30 04:15:38,618 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_module_update_views.xml
+2020-10-30 04:15:38,680 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_language_install_views.xml
+2020-10-30 04:15:38,755 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_import_language_views.xml
+2020-10-30 04:15:38,816 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml
+2020-10-30 04:15:38,928 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml
+2020-10-30 04:15:38,979 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_export_language_views.xml
+2020-10-30 04:15:39,032 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3458104]
+2020-10-30 04:15:39,071 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_update_translations_views.xml
+2020-10-30 04:15:39,130 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml
+2020-10-30 04:15:39,202 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/ir_actions_data.xml
+2020-10-30 04:15:39,220 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/data/ir_demo_failure_data.xml
+2020-10-30 04:15:39,279 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_company_views.xml
+2020-10-30 04:15:39,408 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455623]
+2020-10-30 04:15:39,586 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_lang_views.xml
+2020-10-30 04:15:39,675 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455487, 3455498, 3455507, 3455508, 3455517, 3455518]
+2020-10-30 04:15:39,747 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_partner_views.xml
+2020-10-30 04:15:40,045 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455936, 3456336]
+2020-10-30 04:15:40,219 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455935, 3457675]
+2020-10-30 04:15:40,412 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_bank_views.xml
+2020-10-30 04:15:40,540 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_country_views.xml
+2020-10-30 04:15:40,679 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_currency_views.xml
+2020-10-30 04:15:40,866 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455641]
+2020-10-30 04:15:40,935 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_users_views.xml
+2020-10-30 04:15:41,151 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3459187]
+2020-10-30 04:15:41,461 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455657]
+2020-10-30 04:15:42,010 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455625, 3455937]
+2020-10-30 04:15:42,497 13 INFO i55_002_mtnmx120 odoo.models.unlink: User #1 deleted ir.translation records with IDs: [3455863, 3456866, 3458089, 3458730, 3458968]
+2020-10-30 04:15:43,708 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/ir_property_views.xml
+2020-10-30 04:15:43,830 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/res_config_settings_views.xml
+2020-10-30 04:15:43,875 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/report_paperformat_views.xml
+2020-10-30 04:15:43,999 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/views/onboarding_views.xml
+2020-10-30 04:15:44,197 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base/security/ir.model.access.csv
+2020-10-30 04:15:45,030 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_translation: module base: loading base translation file es for language es_MX
+2020-10-30 04:15:45,031 13 INFO i55_002_mtnmx120 odoo.tools.translate: loading /home/odoo/instance/odoo/odoo/addons/base/i18n/es.po
+2020-10-30 04:15:45,920 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_translation: module base: loading translation file (es_MX) for language es_MX
+2020-10-30 04:15:45,960 13 INFO i55_002_mtnmx120 odoo.tools.translate: loading /home/odoo/instance/odoo/odoo/addons/base/i18n/es_MX.po
+2020-10-30 04:15:46,251 13 INFO i55_002_mtnmx120 odoo.modules.loading: 1 modules loaded in 44.88s, 0 queries
+2020-10-30 04:15:46,289 13 INFO i55_002_mtnmx120 odoo.modules.loading: updating modules list
+2020-10-30 04:15:46,290 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2020-10-30 04:15:49,425 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['base'] to user __system__ #1 via n/a
+2020-10-30 04:15:49,426 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['base'] to user __system__ #1 via n/a
+2020-10-30 04:15:54,141 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a
+2020-10-30 04:15:54,175 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module mis_builder: not installable, skipped
+2020-10-30 04:15:54,192 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module tpv_analytic_account_isolation: not installable, skipped
+2020-10-30 04:15:54,196 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module procurement_mto_analytic: not installable, skipped
+2020-10-30 04:15:54,202 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module account_refund_change_account: not installable, skipped
+2020-10-30 04:15:54,232 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module date_range: not installable, skipped
+2020-10-30 04:15:54,233 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module account_analytic_tag_assign: not installable, skipped
+2020-10-30 04:15:54,242 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module mtnmx: not installable, skipped
+2020-10-30 04:15:54,245 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module report_purchase_order_mtnmx: not installable, skipped
+2020-10-30 04:15:54,246 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module l10n_mx_edi_vendor_validation: not installable, skipped
+2020-10-30 04:15:54,257 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module sat_metadata_download: not installable, skipped
+2020-10-30 04:15:54,258 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module mis_builder_budget: not installable, skipped
+2020-10-30 04:15:54,277 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module crm_sale_followup: not installable, skipped
+2020-10-30 04:15:54,292 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module report_account_invoice_mtnmx: not installable, skipped
+2020-10-30 04:15:54,299 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module purchase_analytic: not installable, skipped
+2020-10-30 04:15:54,303 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module account_currency_revaluation: not installable, skipped
+2020-10-30 04:15:54,304 13 WARNING i55_002_mtnmx120 odoo.modules.graph: module report_account_move_mtnmx: not installable, skipped
+2020-10-30 04:15:54,513 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading 138 modules...
+2020-10-30 04:15:54,656 13 INFO i55_002_mtnmx120 odoo.modules.registry: module base_address_city: creating or updating database tables
+2020-10-30 04:15:54,867 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_address_city/security/ir.model.access.csv
+2020-10-30 04:15:54,892 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_address_city/views/res_city_view.xml
+2020-10-30 04:15:54,965 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_address_city/views/res_country_view.xml
+2020-10-30 04:15:55,037 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_translation: module base_address_city: loading base translation file es for language es_MX
+2020-10-30 04:15:55,038 13 INFO i55_002_mtnmx120 odoo.tools.translate: loading /home/odoo/instance/odoo/addons/base_address_city/i18n/es.po
+2020-10-30 04:15:55,053 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_translation: module base_address_city: no translation for language es_MX
+2020-10-30 04:15:55,180 13 INFO i55_002_mtnmx120 odoo.modules.registry: module base_address_extended: creating or updating database tables
+2020-10-30 04:15:55,431 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_address_extended/views/base_address_extended.xml
+2020-10-30 04:15:55,692 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_address_extended/data/base_address_extended_data.xml
+2020-10-30 04:15:55,720 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_translation: module base_address_extended: loading base translation file es for language es_MX
+2020-10-30 04:15:55,721 13 INFO i55_002_mtnmx120 odoo.tools.translate: loading /home/odoo/instance/odoo/addons/base_address_extended/i18n/es.po
+2020-10-30 04:15:55,735 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_translation: module base_address_extended: no translation for language es_MX
+2020-10-30 04:15:55,860 13 INFO i55_002_mtnmx120 odoo.modules.registry: module base_user_role: creating or updating database tables
+2020-10-30 04:15:56,009 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_user_role/security/ir.model.access.csv
+2020-10-30 04:15:56,047 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_user_role/data/ir_cron.xml
+2020-10-30 04:15:56,053 13 INFO i55_002_mtnmx120 odoo.modules.loading: loading base_user_role/data/ir_module_category.xml
+2020-10-30 04:15:56,815 13 INFO i55_002_mtnmx120 odoo.addons.base.models.ir_ui_view: El campo `company_id` no existe
+Contexto del error:
+Vista `res.users.groups`
+[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]
+2020-10-30 04:15:56,823 13 WARNING i55_002_mtnmx120 odoo.modules.loading: Transient module states were reset
+2020-10-30 04:15:56,824 13 ERROR i55_002_mtnmx120 odoo.modules.registry: Failed to load registry
+Traceback (most recent call last):
+File "/home/odoo/instance/odoo/odoo/models.py", line 1128, in _validate_fields
+check(self)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+self.postprocess_and_fields(view.model, view_doc, view.id)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 1119, in postprocess_and_fields
+fields_def = self.postprocess(model, node, view_id, False, fields)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 944, in postprocess
+fields.update(self.postprocess(model, f, view_id, in_tree_view, model_fields))
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 944, in postprocess
+fields.update(self.postprocess(model, f, view_id, in_tree_view, model_fields))
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 944, in postprocess
+fields.update(self.postprocess(model, f, view_id, in_tree_view, model_fields))
+[Previous line repeated 1 more time]
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 904, in postprocess
+).postprocess_and_fields(field.comodel_name, f, view_id)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 1131, in postprocess_and_fields
+self.raise_view_error(message, view_id)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 568, in raise_view_error
+raise ValueError(message)
+ValueError: El campo `company_id` no existe
+Contexto del error:
+Vista `res.users.groups`
+[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 758, in parse
+self._tags[rec.tag](rec, de, mode=mode)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 663, in _tag_record
+record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+File "/home/odoo/instance/odoo/odoo/models.py", line 3866, in _load_records
+data['record']._load_records_write(data['values'])
+File "/home/odoo/instance/odoo/odoo/models.py", line 3804, in _load_records_write
+self.write(values)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1150, in write
+self.env["res.groups"]._update_user_groups_view()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1098, in _update_user_groups_view
+view.with_context(new_context).write({'arch': xml_content})
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3375, in write
+fields[0].determine_inverse(records)
+File "/home/odoo/instance/odoo/odoo/fields.py", line 1148, in determine_inverse
+getattr(records, self.inverse)()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+view.write(data)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3349, in write
+self._write(store_vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 3485, in _write
+self._validate_fields(vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 1132, in _validate_fields
+raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error mientras se validaban las restricciones\n\nEl campo `company_id` no existe\n\nContexto del error:\nVista `res.users.groups`\n[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]', None)
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/home/odoo/instance/odoo/odoo/modules/registry.py", line 86, in new
+odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 417, in load_modules
+force, status, report, loaded_modules, update_module, models_to_check)
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 313, in load_marked_modules
+perform_checks=perform_checks, models_to_check=models_to_check
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 222, in load_module_graph
+load_data(cr, idref, mode, kind='data', package=package, report=report)
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 68, in load_data
+tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 802, in convert_file
+convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 865, in convert_xml_import
+obj.parse(doc.getroot(), mode=mode)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 764, in parse
+exc_info[2]
+File "/home/odoo/instance/odoo/odoo/tools/pycompat.py", line 86, in reraise
+raise value.with_traceback(tb)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 758, in parse
+self._tags[rec.tag](rec, de, mode=mode)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 663, in _tag_record
+record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+File "/home/odoo/instance/odoo/odoo/models.py", line 3866, in _load_records
+data['record']._load_records_write(data['values'])
+File "/home/odoo/instance/odoo/odoo/models.py", line 3804, in _load_records_write
+self.write(values)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1150, in write
+self.env["res.groups"]._update_user_groups_view()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1098, in _update_user_groups_view
+view.with_context(new_context).write({'arch': xml_content})
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3375, in write
+fields[0].determine_inverse(records)
+File "/home/odoo/instance/odoo/odoo/fields.py", line 1148, in determine_inverse
+getattr(records, self.inverse)()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+view.write(data)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3349, in write
+self._write(store_vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 3485, in _write
+self._validate_fields(vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 1132, in _validate_fields
+raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error mientras se validaban las restricciones
+El campo `company_id` no existe
+Contexto del error:
+Vista `res.users.groups`
+[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]
+None" while parsing /home/odoo/instance/extra_addons/server-backend/base_user_role/data/ir_module_category.xml:6, near
+<record model="ir.module.category" id="ir_module_category_role">
+<field name="name">User roles</field>
+</record>
+2020-10-30 04:15:56,830 13 CRITICAL i55_002_mtnmx120 odoo.service.server: Failed to initialize database `i55_002_mtnmx120`.
+Traceback (most recent call last):
+File "/home/odoo/instance/odoo/odoo/models.py", line 1128, in _validate_fields
+check(self)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 351, in _check_xml
+self.postprocess_and_fields(view.model, view_doc, view.id)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 1119, in postprocess_and_fields
+fields_def = self.postprocess(model, node, view_id, False, fields)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 944, in postprocess
+fields.update(self.postprocess(model, f, view_id, in_tree_view, model_fields))
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 944, in postprocess
+fields.update(self.postprocess(model, f, view_id, in_tree_view, model_fields))
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 944, in postprocess
+fields.update(self.postprocess(model, f, view_id, in_tree_view, model_fields))
+[Previous line repeated 1 more time]
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 904, in postprocess
+).postprocess_and_fields(field.comodel_name, f, view_id)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 1131, in postprocess_and_fields
+self.raise_view_error(message, view_id)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 568, in raise_view_error
+raise ValueError(message)
+ValueError: El campo `company_id` no existe
+Contexto del error:
+Vista `res.users.groups`
+[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 758, in parse
+self._tags[rec.tag](rec, de, mode=mode)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 663, in _tag_record
+record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+File "/home/odoo/instance/odoo/odoo/models.py", line 3866, in _load_records
+data['record']._load_records_write(data['values'])
+File "/home/odoo/instance/odoo/odoo/models.py", line 3804, in _load_records_write
+self.write(values)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1150, in write
+self.env["res.groups"]._update_user_groups_view()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1098, in _update_user_groups_view
+view.with_context(new_context).write({'arch': xml_content})
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3375, in write
+fields[0].determine_inverse(records)
+File "/home/odoo/instance/odoo/odoo/fields.py", line 1148, in determine_inverse
+getattr(records, self.inverse)()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+view.write(data)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3349, in write
+self._write(store_vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 3485, in _write
+self._validate_fields(vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 1132, in _validate_fields
+raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.exceptions.ValidationError: ('Error mientras se validaban las restricciones\n\nEl campo `company_id` no existe\n\nContexto del error:\nVista `res.users.groups`\n[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]', None)
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/home/odoo/instance/odoo/odoo/service/server.py", line 1162, in preload_registries
+registry = Registry.new(dbname, update_module=update_module)
+File "/home/odoo/instance/odoo/odoo/modules/registry.py", line 86, in new
+odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 417, in load_modules
+force, status, report, loaded_modules, update_module, models_to_check)
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 313, in load_marked_modules
+perform_checks=perform_checks, models_to_check=models_to_check
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 222, in load_module_graph
+load_data(cr, idref, mode, kind='data', package=package, report=report)
+File "/home/odoo/instance/odoo/odoo/modules/loading.py", line 68, in load_data
+tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind, report)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 802, in convert_file
+convert_xml_import(cr, module, fp, idref, mode, noupdate, report)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 865, in convert_xml_import
+obj.parse(doc.getroot(), mode=mode)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 764, in parse
+exc_info[2]
+File "/home/odoo/instance/odoo/odoo/tools/pycompat.py", line 86, in reraise
+raise value.with_traceback(tb)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 758, in parse
+self._tags[rec.tag](rec, de, mode=mode)
+File "/home/odoo/instance/odoo/odoo/tools/convert.py", line 663, in _tag_record
+record = model.with_context(rec_context)._load_records([data], self.mode == 'update')
+File "/home/odoo/instance/odoo/odoo/models.py", line 3866, in _load_records
+data['record']._load_records_write(data['values'])
+File "/home/odoo/instance/odoo/odoo/models.py", line 3804, in _load_records_write
+self.write(values)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1150, in write
+self.env["res.groups"]._update_user_groups_view()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/res_users.py", line 1098, in _update_user_groups_view
+view.with_context(new_context).write({'arch': xml_content})
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3375, in write
+fields[0].determine_inverse(records)
+File "/home/odoo/instance/odoo/odoo/fields.py", line 1148, in determine_inverse
+getattr(records, self.inverse)()
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 275, in _inverse_arch
+view.write(data)
+File "/home/odoo/instance/odoo/odoo/addons/base/models/ir_ui_view.py", line 445, in write
+res = super(View, self).write(self._compute_defaults(vals))
+File "/home/odoo/instance/odoo/odoo/models.py", line 3349, in write
+self._write(store_vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 3485, in _write
+self._validate_fields(vals)
+File "/home/odoo/instance/odoo/odoo/models.py", line 1132, in _validate_fields
+raise ValidationError("%s\n\n%s" % (_("Error while validating constraint"), tools.ustr(e)))
+odoo.tools.convert.ParseError: "Error mientras se validaban las restricciones
+El campo `company_id` no existe
+Contexto del error:
+Vista `res.users.groups`
+[view_id: 1953, xml_id: base.user_groups_view, model: res.users, parent_id: 150]
+None" while parsing /home/odoo/instance/extra_addons/server-backend/base_user_role/data/ir_module_category.xml:6, near
+<record model="ir.module.category" id="ir_module_category_role">
+<field name="name">User roles</field>
+</record>
+2020-10-30 04:15:56,832 13 INFO i55_002_mtnmx120 odoo.service.server: Stopping gracefully

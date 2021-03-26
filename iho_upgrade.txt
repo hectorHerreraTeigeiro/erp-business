@@ -1,0 +1,94 @@
+l10n_mx_partner_blocklist, 
+supplier_product_discounts, 		*** ('sale_review', 'sale_order_version',)
+									edited 
+ui_simplification, 					*** (l10n_mx_edi)
+iho, 																			***
+l10n_mx_edi_reports, 
+l10n_mx_edi_addendas, 
+base_user_role, 
+sale_order_sequence, *** no changes, installed
+l10n_mx_edi_base_vat, 
+mail_tracking_mailgun, 
+report_sale_order_iho, 				*** (sale_order_version) 
+res_currency_rate_custom_decimals, 
+l10n_mx_edi_vendor_bills, 
+purchase_supplierinfo_currency, 
+   esta en purchase_workflow 12.0	*** necesito el fork de Jarsa
+sale_authorization, 				*** ('sale_review', 'sale_order_version', 
+									*** 'sale_order_sequence', 'sif_interface',)
+sale_name_to_purchase, /// no changes, instalado
+l10n_mx_edi_partner_defaults, 
+sale_order_version, 				*** (sif_interface)
+iho_security, /// edited, installed
+sale_review, 						*** (sale_order_versio, iho_security)
+mail_tracking,
+	estaba en 	http://github.com/OCA/social, si esta en 13.0
+stock_manual_route, /// edited, installed
+product_brand,
+	estaba en https://github.com/OCA/product-attribute, ya no esta en 13.0	
+	esta en https://github.com/OCA/brand/tree/13.0 
+stock_move_quantity_limit, /// no changes, installed
+l10n_mx_edi_uuid, 
+sif_interface, 						*** ('purchase_supplierinfo_currency', 'document')
+	document estaba en odoo/addons de 12.0.   ya no hay en 13.0, puede ignorarse, 
+	ya se quito de dependencias
+l10n_mx_edi_cancellation_complement, 
+l10n_mx_edi_supplier_defaults, 
+mailgun, 																			como se actualiza?
+crm_team_analytic, 					*** test error
+l10n_mx_edi_customer_bills, 
+l10n_mx_edi_related_documents, 
+crm_team_definition, /// edited, installed
+l10n_mx_edi_bank.
+inventory_implem,   /// desinstalado
+stock_account_product,   /// desinstalado
+sale_fleet_service   borrado
+
+El módulo l10n_mx_edi_payment se mezcló con l10n_mx_edi en odoo enterprise, ya no es necesario como dependencia. **************************************************************
+
+        'base_user_role',
+        'res_currency_rate_custom_decimals',
+        'stock_move_quantity_limit',
+        'sif_interface',
+        'sale_authorization',
+        'sale_stock',
+        'iho_security',
+        'report_sale_order_iho',
+        'sale_order_version',
+        'crm_team_analytic',
+        'sale_name_to_purchase',
+        'sale_review',
+        'stock_manual_route',
+        'crm_team_definition',
+        'supplier_product_discounts',
+        'l10n_mx',
+        'l10n_mx_edi',
+        'l10n_mx_edi_payment',
+        'l10n_mx_edi_payment_bank',
+        'l10n_mx_reports',
+        'l10n_mx_tax_cash_basis',
+        'ui_simplification',
+        'inventory_implem',
+
+************* Estudio de dependencias   ***********************
+************* q otras dependencias se pueden quitar o modulos juntar *********
+iho                         requires    *
+supplier_product_discounts  requires    sale_review, sale_order_version
+sale_review                 requires    sale_order_version, hr(*) 
+sale_order_version          requires    sale_stock(*), sale_crm(*), [sif_interface]-removed-
+sif_interface               requires    mrp(*), sale_management(*), l10n_mx_edi(*), 
+                                        supplier_product_discounts
+
+iho_security                requires    sale_crm(*), mrp(*), base_address_city(*), purchase(*) 
+    integrated into iho;   removed
+*********************************************************************
+
+************************************************
+tuve q comentariar:
+Config de USD minimos en pedidos
+************************************************
+
+************************************************
+as protocol after the DB upgrade, REMOVE:
+['l10n_mx_edi_bank', 'l10n_mx_edi_base_vat', 'l10n_mx_edi_cancellation_complement', 'l10n_mx_edi_related_documents', 'l10n_mx_edi_supplier_defaults', 'purchase_supplierinfo_currency'] 
+************************************************

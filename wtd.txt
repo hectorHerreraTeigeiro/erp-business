@@ -1,53 +1,118 @@
-2huevo, queso aguacate pollo jito mayo crema
-manteq semilla fresa
-iho   df00004
------------
+mt 
+	tengo acceso a select desde afuera via vpn a Postgres cubo?   
+	como tener el mYSql?
+		COPY [Table Name] TO '[File Name]' DELIMITER ',' CSV HEADER;
+		COPY account_account TO '//home/hector/odoo/a.txt' DELIMITER ',' CSV HEADER;
+		https://zetcode.com/python/psycopg2/
+		https://stackoverflow.com/questions/22254253/how-to-copy-entire-sql-server-table-into-csv-including-column-headers
+		
+		$ pg_dump -t account_account mt120 > account_account.sql;
+	hacer mt140 y probar
+        como simplificar el proceso de pagos?                                           ******
+        https://www.odoo.com/es_ES/forum/ayuda-1/v14-change-in-payment-behavior-how-do-the-suspense-and-outstanding-payment-accounts-change-the-journal-entries-posted-177592
+        https://www.odoo.com/fr_FR/forum/aide-1/can-i-bypass-the-oustanding-receipts-outstanding-payments-functionality-at-v14-179295
+        Make this excercise:
+        https://www.odoo.com/fr_FR/forum/aide-1/v14-could-someone-explain-the-complete-cash-payment-receipt-process-from-invoice-178031
+        Como hacer el pago de facturas con lso Diarios de Difrencia en C/P y otros?
+
+***********
+user mysql
+root   odoo
+odoo   odoo
+get in   sudo mysql -u root -p
+
+<record model="base.external.dbsource" id="read_mysql_conn" forcecreate="True">
+    <field name="name">MySQL Connection</field>
+    <field name="password">admin</field>
+    <field name="connector">mysql</field>
+    <field name="conn_string">mysql+pymysql://user:%s@127.0.0.1:3306/database</field>
+</record>
+Use it like this:
+
+res = self.env.ref('custom_module.read_mysql_conn').execute(
+    """Select `id`, `name`, `unit` from `units`;""",
+    {}
+)
+************
+junta semanal Jarsa
+   URGE no funciona la bd mtn120 en local
+   y la cotizacion de soporte?   quien me va a atender?   
+   y la cot de upgrade?
+   status proyectos asignados?
+   quiero poder correr este:   desde produccion
+    COPY account_account TO '//home/hector/odoo/a.txt' DELIMITER ',' CSV HEADER;
+
+**********
+aws>ferzivanz
+aws.train   cloud partition
+**********
+study:   account_spread_cost_revenue oca/account-financial-tools
+	https://youtu.be/z_ADEpQdtUo
+	Real Python
+***********
 telmex   Mar 22;   21809014
    Mar 23 wup dice q es folio 02813373
+   Mar 25 vino a cambiar el router
 ----------
-https://santaelenacoffeeroasters.com/
-------------
 <field name="operator" style="background:Blue;" attrs="{'readonly':[('state', '=', 'done')]}"/>
 if you need to give color for your letters, then use style="color:Red;" 
 <field name="custom_field" class="opt_required" decoration-warning="company_name == 'Elektrolux'"/>
 -------------
-study
-oca/ account-invoice-reporting
--------------
-arge
-cuenta en conciliaciones no aparece
--------------
-jorge
-asignar proyectos: segto a cotiz de paquete y enviar a jorge
-cubos:  disponibilidad de SQL desde Odoo (cecilia), wtg reply
-seriales garantía:  Analisis de requerimientos
-	Wtg Jorge reply on analysis
+tomas orozco
+proyectos. 
+    project / oca
+        project_milestone      project_parent_task_filter      project_recalculate
+        project_task_dependency     project_template        project_timeline_task_dependency    project_milestone      project_from_crm (mal)
+    project / reportes
+        https://apps.odoo.com/apps/modules/14.0/project_task_report_app/
+        https://apps.odoo.com/apps/modules/14.0/sh_project_task_print/
+    programming 
+        set datetime fields at fecha inicio y fin use NOT time
+---------------
+jorge topete
+asignar proyectos de Jarsa: segto a cotiz de paquete y enviar a jorge
+cubos:  
+	seguir con creacion vistas en odoo p cubo:   
+        Análisis de Ingreso, por mes, sucursal, etc                                                                           ******
+        Análisis de Margen bruto, por mes, sucursal, etc
+    como enviar datos a Cloud-BI ?
+    como lanzar como env.os el psql nuevo?
 mt upgrade:   
-	Actualización custom programs (Jarsa)
+    wtg Jarsa cotización de Actualización custom programs
 	estudiar cambios de 12.0 a 14.0 en programación
-	load mt database at local, test;   Ok
-	test mt140 how is admin doing? ********************
-		send	https://youtu.be/c9CDTF8DDcA    Bank reconciliation
-			https://youtu.be/YyMNUFaomWI	Odoo accounting 101
-	acualizar mt con ultima copia d e produccion:   usarla para mt120, mt120tmp
-		programación seriales:
-			add account_inoice_line_ids a modelo stock_production_lot
-			use_time, life_time, removal_time, alert_time
-		mantener actualizada la db de produccion en 14.0 cada fin de semana, 
+	load mt database at local, for upgrade test;   Ok, PERO da error al enviarla       ******
+	test mt140 how is admin doing?
+        ambiente mt140 probar prepara junta argelia
+            como hacerlo mas facil?                                                 ******
+		segun https://youtu.be/c9CDTF8DDcA    Bank reconciliation
+	           https://youtu.be/YyMNUFaomWI	Odoo accounting 101
 --------------------
-Susana:    Limpiar los decimales de la conta
---------------------
-iho	error al crear una PO directamente xq no tiene SO de origen
-	seguir con el SIF  
+iho	
+	1 analizar uso de variantes                                                    ***URGE***
+		se van a cargar SPEC por proveedor (arch anexo a una SO de odoo)
+		ref.int       varia x cada variante? como se usa en Odoo std?                         ***dom***
+		hacer catalogo de variantes ellos
+		en q van a usar la carga del 2020?   En pedido y compra... probar          
+           probar carga del 2020 a nivel de pedido y compra                                                   ***dom***
+		2 ejemplos pequeños de 2020 con pocos productos             ******
+            probarlos                                               ***urge***
+		q es producto  y q es variante?   
+            revisar q al crear el prod y variante x 2020 si se haga 
+            con la parte de codigo correcta                                                ***dom**
 	int le falta Source Document en el header;
-	int se duplica
+	2 int se duplica
 	representacion grafica por cada PO del status por barras, las barras x colores segun avance por fechas
 	No aplica pedido x estar debajo de costo  (monitoreando Cuentas analiticas x Cron)
 	Hay CxP y Cxc en moneda del proveedor ???   cual es el costo?
 	Stock/Out/Transf/Input/Stock entre bodegas
-	La ID de Google debería ser única:  odoo/addons/google_calendar/models/calendar.py   Google ID should be unique!
+    probar cara 2020 por medio de Oca
+        send quotation
 --------------------
 Bec
 	Gladys Carrillo	anzerian.design@gmail.com	6561454040
 		 GLADYS MICHELLE CARRILLO GUERRERO
 	Patricia Rosas	pat.uni95@gmail.com	6561489531	nda-junta-listo  ir 
+ZB9rzTdj2tt*wA$
+
+paty.rosas@jarsa.com.mx    PatyRosas
+gladys.carrillo@jarsa.com.mx   Mtnet-GladysCar   anzerian.design@gmail.com
